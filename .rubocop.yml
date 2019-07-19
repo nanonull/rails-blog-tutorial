@@ -1,0 +1,17 @@
+AllCops:
+  Exclude:
+    - 'config/**/*'
+    - 'db/**/*'
+    - 'bin/**/*'
+
+Style/Encoding:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 99
+
+Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
