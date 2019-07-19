@@ -1,14 +1,16 @@
 # Overview
 
-Blog project setup by [Getting Started with Rails tutorial](https://guides.rubyonrails.org/getting_started.html) with static code analysis configured.
+Blog project done in [Getting Started with Rails tutorial](https://guides.rubyonrails.org/getting_started.html) with static code analysis configured.
 
 # Setup
 _Tested on Ruby 2.5.5_
-1. Clone or download repo.
-2. Run command in project root to start server:  
-ruby bin/rails server
-
-3. View Home page:  
+1. Setup Ruby on Rails using [tutorial](https://www.tutorialspoint.com/ruby-on-rails/rails-installation)
+2. Clone or download repo.
+3. Run command to install gems:  
+__bundler install__
+4. Run command in project root to start server:  
+__ruby bin/rails server__
+5. View Home page:  
 http://localhost:3000/
 
 # Development
