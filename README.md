@@ -7,10 +7,11 @@ _Tested on Ruby 2.5.5_
 1. Setup Ruby on Rails using [tutorial](https://www.tutorialspoint.com/ruby-on-rails/rails-installation)
 2. Clone or download repo.
 3. Run command to install gems:  
-__bundler install__
-4. Run command in project root to start server:  
-__ruby bin/rails server__
-5. View Home page:  
+`bundler install`
+4. Create settings file with server credentials at __config/credentials.yml__ (refer to __credentials.example.yml__)
+5. Run command in project root to start server:  
+`ruby bin/rails server`
+6. View Home page:  
 http://localhost:3000/
 
 # Development
@@ -18,14 +19,14 @@ http://localhost:3000/
 [Rubocop](https://github.com/rubocop-hq/rubocop) - static code analyzer and formatter:  
 
 - Check all Ruby source files:  
-Run command in project root: __rubocop__
+Run command in project root: `rubocop`
 
 - Try to fix all Ruby source files:  
-Run command in project root: __rubocop -a__
+Run command in project root: `rubocop -a`
 
 - Fix code layout (formatting):  
-Run command in project root: __rubocop -x__
+Run command in project root: `rubocop -x`
 
 [Brakeman](https://github.com/presidentbeef/brakeman) - static analysis tool for security vulnerabilities  
 - Find security issues:  
-Run command in project root: __brakeman__
+Run command in project root: `brakeman`
