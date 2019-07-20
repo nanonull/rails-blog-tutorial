@@ -16,7 +16,7 @@ http://localhost:3000/
 
 # Development
 
-## [Rubocop](https://github.com/rubocop-hq/rubocop) - static code analyzer and formatter:  
+## [Rubocop](https://github.com/rubocop-hq/rubocop) - static code analyzer and formatter  
 
 Configured in __.rubocop.yml__
 
@@ -29,7 +29,7 @@ Run command in project root: `rubocop -a`
 - Fix code layout (formatting):  
 Run command in project root: `rubocop -x`
 
-## [Solargraph](https://github.com/castwide/vscode-solargraph) - language server that provides intellisense, code completion, and inline documentation for Ruby.  
+## [Solargraph](https://github.com/castwide/vscode-solargraph) - language server that provides intellisense, code completion, and inline documentation for Ruby  
 
 ### Setup for VS Code
 1) Install [Ruby Solargraph](https://marketplace.visualstudio.com/items?itemName=castwide.solargraph) extension
