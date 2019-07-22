@@ -14,6 +14,11 @@ _Tested on Ruby 2.5.5_
 6. View Home page:  
 http://localhost:3000/
 
+# Testing
+
+## [Howitzer](https://github.com/strongqa/howitzer) - Ruby-based framework for acceptance testing
+Test project: [rails-blog-web-test](https://github.com/nanonull/rails-blog-web-test)
+
 # Development
 
 ## [Rubocop](https://github.com/rubocop-hq/rubocop) - static code analyzer and formatter  
